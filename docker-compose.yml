@@ -30,7 +30,7 @@ services:
         - KONG_ADMIN_ERROR_LOG=/dev/stderr
         - KONG_ADMIN_LISTEN=0.0.0.0:8001
         - KONG_ADMIN_LISTEN_SSL=0.0.0.0:8444
-        - KONG_CUSTOM_PLUGINS=oidc
+        - KONG_CUSTOM_PLUGINS=oidc,okta-auth
         depends_on:
         - kong-database
     webapp:
