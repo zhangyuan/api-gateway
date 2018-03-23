@@ -1,4 +1,4 @@
-# api-gateway
+    # api-gateway
 
 ## QuickStart
 
@@ -7,7 +7,7 @@
 ```
 http -f POST localhost:9001/apis/ \
     name=okta-secure \
-    upstream_url=http://app:3000 \
+    upstream_url=http://webapp:3000 \
     uris=/
 ```
 
